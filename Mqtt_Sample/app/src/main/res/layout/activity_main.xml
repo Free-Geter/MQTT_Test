@@ -1,22 +1,60 @@
 <?xml version="1.0" encoding="utf-8"?>
 
-<LinearLayout
+<LinearLayout xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="hello"
-        android:textSize="20sp"
-        >
-    </TextView>
-    <Button
+
+    <ImageView
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="20sp"
-        android:text="hello">
-    </Button>
+        android:layout_height="309dp"
+        android:src="@drawable/living_room"
+        android:layout_marginBottom="20dp"/>
+    
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/Switch"
+                style="@style/indextext"
+                android:layout_marginTop="5dp"
+                android:text="开关"
+                android:drawableTop="@drawable/open"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2E8B57"/>
+            <TextView
+                android:id="@+id/Clock"
+                style="@style/indextext"
+                android:layout_marginTop="5dp"
+                android:text="定时"
+                android:drawableTop="@drawable/clock"/>
+            <View
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="#2E8B57"/>
+            <TextView
+                android:id="@+id/Plus"
+                style="@style/indextext"
+                android:layout_marginTop="5dp"
+                android:text="更多"
+                android:drawableTop="@drawable/plus"/>
+        </LinearLayout>
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="#2E8B57"
+            />
+    </LinearLayout>
 </LinearLayout>
 
