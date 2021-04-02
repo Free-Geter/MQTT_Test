@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 按钮单击时的状态 -->
+    <item android:drawable="@drawable/button_bg_org" android:state_pressed="false"/>
+    <!-- 按钮默认状态 -->
+    <item android:drawable="@drawable/button_bg_org_selected" android:state_pressed="true"/>
+</selector>

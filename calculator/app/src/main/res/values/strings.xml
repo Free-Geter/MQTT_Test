@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">calculator</string>
+    <string name="delete">del</string>
+    <string name="divide">÷</string>
+    <string name="multiply">×</string>
+    <string name="clear">C</string>
+    <string name="reduce">-</string>
+    <string name="add">+</string>
+    <string name="point">.</string>
+    <string name="equal">=</string>
+    <string name="percent">%</string>
+</resources>
